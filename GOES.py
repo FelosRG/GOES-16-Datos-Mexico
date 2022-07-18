@@ -13,6 +13,28 @@ from pathlib import Path
 
 PATH_SCRIPT = "/".join(os.path.realpath(__file__).split("/")[:-1])
 
+dic_res = {
+	"1":1,
+	"2":0.5,
+	"3":1,
+	"4":2,
+	"5":1,
+	"6":2,
+	"7":2,
+	"8":2,
+	"9":2,
+	"10":2,
+	"11":2,
+	"12":2,
+	"13":2,
+	"14":2,
+	"15":2,
+	"16":2,
+	"CM":2,
+	"CTH":10,
+	"DSI":10,
+}
+
 def degree2rad(degree):
 	k = math.pi / 180
 	return degree*k
