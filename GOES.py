@@ -162,7 +162,7 @@ def coordenadas2px(nc,latitud,longitud):
     # Alternativa rápida a no tener que dar el nc.
 
     if nc==2:
-        with h5py.File(PATH_SCRIPT + "/Recursos/CONUS/Georef_2km.h5") as dataset:
+        with h5py.File(PATH_SCRIPT + "/Recursos/Georef_2km.h5") as dataset:
             X = dataset["x"][()]
             Y = dataset["y"][()]
             lambda_o = dataset["lambda_o"][()]
