@@ -2,6 +2,6 @@ h5py
 matplotlib
 netCDF4==1.5.7
 numpy
-pandas==1.4.3
+pandas
 s3fs
 scipy
