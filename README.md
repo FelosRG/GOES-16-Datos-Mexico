@@ -1,2 +1,2 @@
-# GOES-16-Datos-Mexico
-Herramienta para la descarga de datos satélitaes del GOES-16 de México
+# libGOES16
+Herramienta para la descarga  y manejo de datos satélitaes del GOES-16
