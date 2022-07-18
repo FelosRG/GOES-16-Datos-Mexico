@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import scipy.ndimage
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 PATH_SCRIPT = os.path.realpath(__file__)
 
