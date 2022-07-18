@@ -11,7 +11,7 @@ import scipy.ndimage
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-PATH_SCRIPT = os.path.realpath(__file__)
+PATH_SCRIPT = "/".join(os.path.realpath(__file__).split("/")[:-1])
 
 def degree2rad(degree):
 	k = math.pi / 180
